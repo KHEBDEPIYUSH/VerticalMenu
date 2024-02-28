@@ -1,0 +1,193 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("./Images/Hotel.webp");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+nav {
+    background-image: linear-gradient(to Right bottom, red, green, blue);
+    width: 20%;
+    height: 100vh;
+}
+
+#cont {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 20px 0px;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid white;
+}
+
+a:hover {
+    color: black;
+}
+
+#vdrop {
+    position: relative;
+}
+
+#vmenu {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background: red;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: 100%;
+    display: none;
+}
+
+#vdrop:hover #vmenu {
+    display: block;
+}
+
+#ndrop {
+    position: relative;
+}
+
+#nmenu {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: blue;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: 100%;
+    display: none;
+}
+
+#ndrop:hover #nmenu {
+    display: block;
+}
+
+#ddrop {
+    position: relative;
+}
+
+#dmenu {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: orangered;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: 100%;
+    display: none;
+}
+
+#ddrop:hover #dmenu {
+    display: block;
+}
+
+.bdrop {
+    position: relative;
+}
+
+.bmenu {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: brown;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: 100%;
+    display: none;
+}
+
+.bdrop:hover .bmenu {
+    display: block;
+}
+
+.ldrop {
+    position: relative;
+}
+
+.lmenu {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: brown;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: 100%;
+    display: none;
+}
+
+.ldrop:hover .lmenu {
+    display: block;
+}
+
+.Ddrop {
+    position: relative;
+}
+
+.Dmenu {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: brown;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: 100%;
+    display: none;
+}
+
+.Ddrop:hover .Dmenu {
+    display: block;
+}
+
+#hdrop {
+    position: relative;
+}
+
+#hmenu {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: brown;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: 100%;
+    display: none;
+}
+
+#hdrop:hover #hmenu {
+    display: block;
+}
+
+#cdrop {
+    position: relative;
+}
+
+#cmenu {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: brown;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: 100%;
+    display: none;
+}
+
+#cdrop:hover #cmenu {
+    display: block;
+}
